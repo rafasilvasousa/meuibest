@@ -1,1 +1,3 @@
 /django/env/
+/django/.env
+*__pycache__*
