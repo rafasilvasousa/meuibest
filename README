@@ -1,14 +1,22 @@
 # Meu iBest
+> [English version here](#english)
 
 Obrigado por olhar aqui. :) deixa um salve!
 Esse projeto é mais um dos muitos que eu uso pra gastar meu tempo quando sobra.
 Minha ideia é mostrar minhas habilidades com as ferramentas que eu sou mais familiar, começando com o super básico e pregreedindo adicionando funcionalidades e aumentando a complexidade.
+
+## Sumario
+1. [Descricao do Projeto](#-sobre-o-projeto)
+
+
 ---
+
+
 
 ## 📝 Sobre o Projeto
 
 O **Meu iBest** é uma aplicação que eu pensei para organizar de maneira sistematica o tipo de conteúdo que eu consumo na internet.
-O Projeto é dividido em três principais partes:
+O Projeto é dividido em três principais partes: Uma API para servir e persistir dados. Eu uso o DJANGOREST com Pythpn; Uma aplicação WEB, que vai exibir as informações; e uma aplicação móvel, que eu vou usando para alimentar os dados e para visualização tambem.
 
 
 ---
@@ -57,7 +65,7 @@ Certifique-se de ter instalados em sua máquina:
     ```bash
 
     ```
-
+---
 ## 📂 Estrutura do Projeto
 ```bash
 
@@ -67,5 +75,96 @@ meuibest/
 ├── vue/           # Frontend Web (Vue.js)
 └── README.md      # Documentação do projeto
 ```
+---
 ## 👥 Contribuidores
 - [Eu mesmo](https://github.com/rafasilvasousa/)
+
+---
+
+## Authentication
+
+
+## English
+# Meu iBest
+
+Thanks for stoping by! :) 
+This project is one of many that I work on when i have time and motivatino.
+My ideia here is simply to show the tools I'm most familiar with. This project is intended to start simple, and gradually increase in complexity with new functionalities over time.
+
+## Sumario
+1. [Project Description](#-about)
+
+
+---
+
+
+
+## 📝 About
+
+O **Meu iBest** é uma aplicação que eu pensei para organizar de maneira sistematica o tipo de conteúdo que eu consumo na internet.
+O Projeto é dividido em três principais partes: Uma API para servir e persistir dados. Eu uso o DJANGOREST com Pythpn; Uma aplicação WEB, que vai exibir as informações; e uma aplicação móvel, que eu vou usando para alimentar os dados e para visualização tambem.
+
+
+---
+
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Django + DjangoREST Framework**
+- **Flutter**
+- **VueJs**
+
+---
+
+## ⚙️ Configuração do Ambiente
+
+### Pré-requisitos
+
+Certifique-se de ter instalados em sua máquina:
+
+[[- Python 3.10+ e Virtualenv]]
+[[- Node.js e npm/yarn]]
+[[- Flutter SDK]]
+
+
+### Passos para configurar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/rafasilvasousa/meuibest.git
+   cd meuibest
+   ```
+2. Django:
+    ```bash
+    cd django
+    python -m venv env
+    source env/bin/activate  # No Windows: env\Scripts\activate
+    pip install -r requirements.txt
+    python manage.py migrate
+    python manage.py runserver
+    ```
+3. Flutter
+    ```bash
+
+    ```
+4. Vue.js
+    ```bash
+
+    ```
+---
+## 📂 Estrutura do Projeto
+```bash
+
+meuibest/
+├── django/        # Backend (Django API REST)
+├── flutter/       # Aplicativo mobile (Flutter)
+├── vue/           # Frontend Web (Vue.js)
+└── README.md      # Documentação do projeto
+```
+---
+## 👥 Contribuidores
+- [Eu mesmo](https://github.com/rafasilvasousa/)
+
+---
+
+## Authentication
