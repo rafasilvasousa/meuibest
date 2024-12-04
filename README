@@ -7,6 +7,10 @@ Minha ideia é mostrar minhas habilidades com as ferramentas que eu sou mais fam
 
 ## Sumario
 1. [Descricao do Projeto](#-sobre-o-projeto)
+2. [Ferramentas](#️-tecnologias-utilizadas)
+3. [Configuração](#passos-para-configurar
+4. [Estrutura do Projeto](#-estrutura-do-projeto)
+5. [Contribuição](#-contribuidores)
 
 
 ---
@@ -91,8 +95,12 @@ Thanks for stoping by! :)
 This project is one of many that I work on when i have time and motivatino.
 My ideia here is simply to show the tools I'm most familiar with. This project is intended to start simple, and gradually increase in complexity with new functionalities over time.
 
-## Sumario
+## Summary
 1. [Project Description](#-about)
+2. [Tools](#️-technologies)
+3. [Env Settings](#️-enviroment-settings)
+4. [Project Structure](#-project-structure)
+5. [Contributors](#-contributors)
 
 
 ---
@@ -101,14 +109,13 @@ My ideia here is simply to show the tools I'm most familiar with. This project i
 
 ## 📝 About
 
-O **Meu iBest** é uma aplicação que eu pensei para organizar de maneira sistematica o tipo de conteúdo que eu consumo na internet.
-O Projeto é dividido em três principais partes: Uma API para servir e persistir dados. Eu uso o DJANGOREST com Pythpn; Uma aplicação WEB, que vai exibir as informações; e uma aplicação móvel, que eu vou usando para alimentar os dados e para visualização tambem.
+**Meu iBest** is an application that I thought to organize all digital content creators that I follow. The project is composed by three parts. an API, where i am using, Python with Django REST, web application show to display the data using VueJS; and a mobile appliation using Flutter to insert data in the system.
 
 
 ---
 
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies
 
 - **Django + DjangoREST Framework**
 - **Flutter**
@@ -116,20 +123,20 @@ O Projeto é dividido em três principais partes: Uma API para servir e persisti
 
 ---
 
-## ⚙️ Configuração do Ambiente
+## ⚙️ Enviroment Settings
 
-### Pré-requisitos
+### Prerequisites
 
-Certifique-se de ter instalados em sua máquina:
+Be sure to have installed:
 
 [[- Python 3.10+ e Virtualenv]]
 [[- Node.js e npm/yarn]]
 [[- Flutter SDK]]
 
 
-### Passos para configurar
+### Setup Steps 
 
-1. Clone o repositório:
+1. Clone the repo:
    ```bash
    git clone https://github.com/rafasilvasousa/meuibest.git
    cd meuibest
@@ -152,17 +159,17 @@ Certifique-se de ter instalados em sua máquina:
 
     ```
 ---
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 ```bash
 
 meuibest/
 ├── django/        # Backend (Django API REST)
-├── flutter/       # Aplicativo mobile (Flutter)
+├── flutter/       # Mobile Application (Flutter)
 ├── vue/           # Frontend Web (Vue.js)
 └── README.md      # Documentação do projeto
 ```
 ---
-## 👥 Contribuidores
+## 👥 Contributors
 - [Eu mesmo](https://github.com/rafasilvasousa/)
 
 ---
